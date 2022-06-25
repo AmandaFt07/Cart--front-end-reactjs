@@ -33,6 +33,12 @@ const Style = styled.section`
         flex-wrap: wrap;
         
     }
+
+    @media (max-width: 1280px){
+        .container{
+            justify-content: center;
+        }
+    }
 `
 
 export default Style
